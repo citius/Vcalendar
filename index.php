@@ -10,11 +10,11 @@ spl_autoload_register(function ($name) {
 });
 
 //header ('Content-Type: text/calendar;UTF-8'); // For DEMO
-//header ('Content-Type: text/plain;UTF-8'); // For TEST
+header ('Content-Type: text/plain;UTF-8'); // For TEST
 
 $cal = new Calendar();
 $rrule = new RecurrenceRule();
-echo $rrule('test');
+//echo $rrule('test');
 
 $event = new Event(array(
     'create' => date('Ymd\THis'),

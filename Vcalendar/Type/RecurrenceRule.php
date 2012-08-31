@@ -21,8 +21,6 @@ class RecurrenceRule extends Type
     protected $weekdaynum;
     protected $plus;
     protected $minus;
-    protected $plus;
-    protected $minus;
     protected $ordwk;
     protected $weekday;
     protected $bymodaylist;
